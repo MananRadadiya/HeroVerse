@@ -1,4 +1,4 @@
-import LazyImage from '../shared/LazyImage';
+import LazyImage from '../shared/LazyImage.jsx';
 import './CharacterCard.css';
 
 const CharacterCard = ({ character, onClick, className = '' }) => {

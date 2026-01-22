@@ -1,18 +1,18 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { characters } from '../data/characters';
-import { ITEMS_PER_PAGE, STATUS, SPECIES, POWER_TYPES } from '../data/constants';
-import { useDebounce } from '../hooks/useDebounce';
-import { useURLState } from '../hooks/useURLState';
-import { useFilters } from '../hooks/useFilters';
-import { usePagination } from '../hooks/usePagination';
-import CharacterCard from '../components/characters/CharacterCard';
-import Skeleton from '../components/shared/Skeleton';
+import { ITEMS_PER_PAGE, STATUS, SPECIES, POWER_TYPES } from '../data/constants.js';
+import { useDebounce } from '../hooks/useDebounce.js';
+import { useURLState } from '../hooks/useURLState.js';
+import { useFilters } from '../hooks/useFilters.js';
+import { usePagination } from '../hooks/usePagination.js';
+import CharacterCard from '../components/characters/CharacterCard.jsx';
+import Skeleton from '../components/shared/Skeleton.jsx';
 import './Characters.css';
 
 const Characters = () => {
   const navigate = useNavigate();
-  const { getParam, setParam, setParams } = useURLState();
+  const { getParam, setParams } = useURLState();
 
   // Initialize state from URL
   const [search, setSearch] = useState(getParam('search', ''));
