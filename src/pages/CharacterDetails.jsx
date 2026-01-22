@@ -8,18 +8,10 @@ import './CharacterDetails.css';
 const CharacterDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-
+  
   const character = getCharacterById(id);
   const appearances = character ? getMoviesByCharacterId(character.id) : [];
-  if (!character) {
-    return (
-      <section className="character-details-page">
-        <div className="container">
-          <Skeleton variant="card" count={1} />
-        </div>
-      </section>
-    );
-  }
+
   if (!character) {
     return (
       <section className="character-details-page">
@@ -44,8 +36,8 @@ const CharacterDetails = () => {
         <span className="power-stat-value">{value}</span>
       </div>
       <div className="power-stat-bar">
-        <div
-          className="power-stat-fill"
+        <div 
+          className="power-stat-fill" 
           style={{ width: `${value}%` }}
         />
       </div>
@@ -56,8 +48,8 @@ const CharacterDetails = () => {
     <section className="character-details-page animate-fadeIn">
       <div className="container">
         {/* Back Button */}
-        <button
-          className="back-button"
+        <button 
+          className="back-button" 
           onClick={() => navigate('/characters')}
           aria-label="Back to characters"
         >
@@ -70,14 +62,14 @@ const CharacterDetails = () => {
         {/* Hero Section */}
         <div className="character-hero">
           <div className="character-hero-image">
-            <LazyImage
-              src={character.image}
+            <LazyImage 
+              src={character.image} 
               alt={character.name}
             />
-            <div
+            <div 
               className="hero-glow"
               style={{
-                background: character.status === 'Alive'
+                background: character.status === 'Alive' 
                   ? `radial-gradient(circle, ${character.powerType === 'Tech' ? 'var(--power-tech)' : character.powerType === 'Mystic' ? 'var(--power-mystic)' : character.powerType === 'Cosmic' ? 'var(--power-cosmic)' : 'var(--power-mutant)'}20 0%, transparent 70%)`
                   : 'radial-gradient(circle, var(--status-deceased-glow) 0%, transparent 70%)'
               }}
@@ -86,7 +78,7 @@ const CharacterDetails = () => {
 
           <div className="character-hero-content">
             <h1 className="character-title">{character.name}</h1>
-
+            
             <div className="character-status-line">
               <span className={`status-badge ${character.status.toLowerCase()}`}>
                 <span className="status-dot" />
@@ -95,13 +87,13 @@ const CharacterDetails = () => {
               <span className="separator">•</span>
               <span className="species-badge">{character.species}</span>
               <span className="separator">•</span>
-              <span
+              <span 
                 className="power-badge"
-                style={{
-                  color: character.powerType === 'Tech' ? 'var(--power-tech)' :
-                    character.powerType === 'Mystic' ? 'var(--power-mystic)' :
-                      character.powerType === 'Cosmic' ? 'var(--power-cosmic)' :
-                        'var(--power-mutant)'
+                style={{ 
+                  color: character.powerType === 'Tech' ? 'var(--power-tech)' : 
+                         character.powerType === 'Mystic' ? 'var(--power-mystic)' : 
+                         character.powerType === 'Cosmic' ? 'var(--power-cosmic)' : 
+                         'var(--power-mutant)'
                 }}
               >
                 {character.powerType}
@@ -150,7 +142,7 @@ const CharacterDetails = () => {
         <div className="stats-section">
           <h2 className="section-title">Power Statistics</h2>
           <div className="power-stats-grid">
-            {Object.entries(character.powerStats).map(([key, value]) =>
+            {Object.entries(character.powerStats).map(([key, value]) => 
               renderPowerStat(
                 key.charAt(0).toUpperCase() + key.slice(1),
                 value
@@ -167,8 +159,8 @@ const CharacterDetails = () => {
             </h2>
             <div className="appearances-grid">
               {appearances.map(movie => (
-                <Link
-                  key={movie.id}
+                <Link 
+                  key={movie.id} 
                   to={`/movies/${movie.id}`}
                   className="appearance-card"
                 >

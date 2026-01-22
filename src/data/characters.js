@@ -61,7 +61,7 @@ export const characters = [
       power: 45,
       combat: 95
     },
-    image: "https://i.imgur.com/Z8Y0mVQ.png",
+    image: "https://images.hdqwalls.com/download/black-widow-silent-vengeance-he-1440x900.jpg",
     bio: "Elite spy and assassin trained in the Red Room, a founding member of the Avengers."
   },
   {
@@ -82,7 +82,7 @@ export const characters = [
       power: 95,
       combat: 70
     },
-    image: "https://i.imgur.com/F2XG7Rj.png",
+    image: "https://images.hdqwalls.com/wallpapers/marvel-hulk-avenger-in-action-ch.jpg",
     bio: "Scientist transformed by gamma radiation into an unstoppable force of nature."
   },
   {
@@ -103,7 +103,7 @@ export const characters = [
       power: 55,
       combat: 95
     },
-    image: "https://images.hdqwalls.com/wallpapers/captain-america-infinity-war-4k-v2.jpg",
+    image: "https://images.hdqwalls.com/wallpapers/captain-america-lightning-strikes-mjolnir-rising-df.jpg",
     bio: "Super soldier from World War II, enhanced with the serum and wielding an indestructible shield."
   },
   {
@@ -124,7 +124,7 @@ export const characters = [
       power: 98,
       combat: 75
     },
-    image: "https://images.hdqwalls.com/wallpapers/doctor-strange-2022-4k.jpg",
+    image: "https://images.hdqwalls.com/wallpapers/professor-x-in-avengers-doomsday-dq.jpg",
     bio: "Master of the mystic arts and protector of Earth from supernatural threats."
   },
   {
@@ -145,7 +145,7 @@ export const characters = [
       power: 65,
       combat: 80
     },
-    image: "https://images.hdqwalls.com/wallpapers/spiderman-no-way-home-4k-2021.jpg",
+    image: "https://images.hdqwalls.com/wallpapers/star-lord-powerful-gl.jpg",
     bio: "Teenager bitten by a radioactive spider, gaining incredible spider-like abilities."
   },
   {
@@ -166,7 +166,7 @@ export const characters = [
       power: 99,
       combat: 75
     },
-    image: "https://images.hdqwalls.com/wallpapers/scarlet-witch-2022-4k.jpg",
+    image: "https://images.hdqwalls.com/wallpapers/scarlet-witch-red-magic-rising-av.jpg",
     bio: "Wielder of chaos magic with reality-altering abilities, one of the most powerful beings."
   },
   {
@@ -187,7 +187,7 @@ export const characters = [
       power: 70,
       combat: 95
     },
-    image: "https://images.hdqwalls.com/wallpapers/black-panther-2022-4k.jpg",
+    image: "https://images.hdqwalls.com/wallpapers/black-panther-rises-01.jpg",
     bio: "King of Wakanda and protector wearing a suit made of vibranium, the strongest metal."
   },
   {
@@ -208,7 +208,7 @@ export const characters = [
       power: 40,
       combat: 90
     },
-    image: "https://images.hdqwalls.com/wallpapers/hawkeye-marvel-4k.jpg",
+    image: "https://images.hdqwalls.com/wallpapers/hawkeye-2022-2u.jpg",
     bio: "Master archer with perfect aim, a founding member of the Avengers."
   },
   {
@@ -229,7 +229,7 @@ export const characters = [
       power: 75,
       combat: 70
     },
-    image: "https://images.hdqwalls.com/wallpapers/ant-man-quantumania-4k.jpg",
+    image: "https://images.hdqwalls.com/wallpapers/the-antman-and-the-wasp-quantumania-5k-6s.jpg",
     bio: "Thief turned hero who can shrink to ant size or grow to giant proportions."
   },
   {
@@ -250,7 +250,7 @@ export const characters = [
       power: 65,
       combat: 92
     },
-    image: "https://images.hdqwalls.com/wallpapers/winter-soldier-4k.jpg",
+    image: "https://images.hdqwalls.com/wallpapers/sebastian-stan-as-bucky-barnes-in-thunderbolts-movie-ko.jpg",
     bio: "Former brainwashed assassin with a cybernetic arm, now fighting for redemption."
   },
   {
@@ -271,7 +271,7 @@ export const characters = [
       power: 95,
       combat: 80
     },
-    image: "https://images.hdqwalls.com/wallpapers/vision-marvel-4k.jpg",
+    image: "https://images.hdqwalls.com/wallpapers/ultron-what-if-tv-series-4k-cn.jpg",
     bio: "Android powered by the Mind Stone with vast computational abilities and humanity."
   },
   {
@@ -292,7 +292,7 @@ export const characters = [
       power: 60,
       combat: 85
     },
-    image: "https://images.hdqwalls.com/wallpapers/star-lord-guardians-4k.jpg",
+    image: "https://images.hdqwalls.com/wallpapers/doctor-strange-portal-walker-mx.jpg",
     bio: "Half-human, half-celestial outlaw who leads the Guardians of the Galaxy."
   },
   {
@@ -313,7 +313,7 @@ export const characters = [
       power: 60,
       combat: 95
     },
-    image: "https://images.hdqwalls.com/wallpapers/gamora-guardians-4k.jpg",
+    image: "https://images.hdqwalls.com/wallpapers/iron-man-vs-doctor-doom-titans-clash-m8.jpg",
     bio: "Deadly assassin raised by Thanos, now protecting the galaxy with the Guardians."
   }
 ];
