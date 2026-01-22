@@ -1,0 +1,192 @@
+import { PHASES } from './constants';
+
+export const movies = [
+  {
+    id: 1,
+    title: "Sentinel Rising",
+    phase: PHASES.PHASE_1,
+    releaseYear: 2008,
+    saga: "Infinity Saga",
+    director: "James Favreau",
+    duration: 126,
+    rating: 7.9,
+    boxOffice: 585.8,
+    characterIds: [1],
+    synopsis: "A billionaire genius creates a high-tech suit of armor to escape captivity and becomes a hero.",
+    poster: "https://images.hdqwalls.com/download/the-legacy-of-iron-man-dc-480x854.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/iron-man-avengers-endgame-4k.jpg"
+  },
+  {
+    id: 2,
+    title: "The Thunder God",
+    phase: PHASES.PHASE_1,
+    releaseYear: 2011,
+    saga: "Infinity Saga",
+    director: "Kenneth Branagh",
+    duration: 115,
+    rating: 7.0,
+    boxOffice: 449.3,
+    characterIds: [2],
+    synopsis: "The prince of Asgard is banished to Earth and must prove himself worthy of his power.",
+    poster: "https://images.hdqwalls.com/wallpapers/thor-last-hope-xo.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/thor-ragnarok-4k.jpg"
+  },
+  {
+    id: 3,
+    title: "The First Sentinel",
+    phase: PHASES.PHASE_1,
+    releaseYear: 2011,
+    saga: "Infinity Saga",
+    director: "Joe Johnston",
+    duration: 124,
+    rating: 6.9,
+    boxOffice: 370.6,
+    characterIds: [5],
+    synopsis: "A scrawny soldier is transformed into the world's first super soldier to fight in World War II.",
+    poster: "https://images.hdqwalls.com/wallpapers/captain-america-infinity-war-4k-v2.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/captain-america-4k.jpg"
+  },
+  {
+    id: 4,
+    title: "Assembly",
+    phase: PHASES.PHASE_1,
+    releaseYear: 2012,
+    saga: "Infinity Saga",
+    director: "Joss Whedon",
+    duration: 143,
+    rating: 8.0,
+    boxOffice: 1518.8,
+    characterIds: [1, 2, 4, 5, 3, 10],
+    synopsis: "Earth's mightiest heroes must unite to stop an alien invasion threatening humanity.",
+    poster: "https://images.hdqwalls.com/wallpapers/avengers-endgame-2019-4k.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/avengers-assemble-4k.jpg"
+  },
+  {
+    id: 5,
+    title: "Sentinel 3",
+    phase: PHASES.PHASE_2,
+    releaseYear: 2013,
+    saga: "Infinity Saga",
+    director: "Shane Black",
+    duration: 130,
+    rating: 7.1,
+    boxOffice: 1214.8,
+    characterIds: [1],
+    synopsis: "The genius inventor faces his greatest challenge yet when a terrorist threatens everything he loves.",
+    poster: "https://images.hdqwalls.com/download/the-legacy-of-iron-man-dc-480x854.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/iron-man-mark-50-4k.jpg"
+  },
+  {
+    id: 6,
+    title: "Cosmic Outlaws",
+    phase: PHASES.PHASE_2,
+    releaseYear: 2014,
+    saga: "Infinity Saga",
+    director: "James Gunn",
+    duration: 121,
+    rating: 8.0,
+    boxOffice: 773.3,
+    characterIds: [14, 15],
+    synopsis: "A group of intergalactic misfits must protect a powerful orb from falling into the wrong hands.",
+    poster: "https://images.hdqwalls.com/wallpapers/guardians-of-galaxy-4k.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/guardians-galaxy-vol2-4k.jpg"
+  },
+  {
+    id: 7,
+    title: "Assembly: Age of Machines",
+    phase: PHASES.PHASE_2,
+    releaseYear: 2015,
+    saga: "Infinity Saga",
+    director: "Joss Whedon",
+    duration: 141,
+    rating: 7.3,
+    boxOffice: 1402.8,
+    characterIds: [1, 2, 4, 5, 3, 10, 8, 13],
+    synopsis: "The Avengers face an artificial intelligence determined to cause human extinction.",
+    poster: "https://images.hdqwalls.com/wallpapers/avengers-age-of-ultron-4k.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/ultron-avengers-4k.jpg"
+  },
+  {
+    id: 8,
+    title: "Star Captain: Cold War",
+    phase: PHASES.PHASE_3,
+    releaseYear: 2016,
+    saga: "Infinity Saga",
+    director: "Anthony & Joe Russo",
+    duration: 147,
+    rating: 7.8,
+    boxOffice: 1153.3,
+    characterIds: [5, 1, 3, 12, 9, 7],
+    synopsis: "Political pressure forces the Avengers to accept oversight, dividing the team.",
+    poster: "https://images.hdqwalls.com/wallpapers/captain-america-civil-war-4k.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/civil-war-battle-4k.jpg"
+  },
+  {
+    id: 9,
+    title: "Mystic Supreme",
+    phase: PHASES.PHASE_3,
+    releaseYear: 2016,
+    saga: "Infinity Saga",
+    director: "Scott Derrickson",
+    duration: 115,
+    rating: 7.5,
+    boxOffice: 677.7,
+    characterIds: [6],
+    synopsis: "A surgeon discovers the hidden world of magic and alternate dimensions after a career-ending accident.",
+    poster: "https://images.hdqwalls.com/wallpapers/doctor-strange-2022-4k.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/doctor-strange-multiverse-4k.jpg"
+  },
+  {
+    id: 10,
+    title: "Vibranium Kingdom",
+    phase: PHASES.PHASE_3,
+    releaseYear: 2018,
+    saga: "Infinity Saga",
+    director: "Ryan Coogler",
+    duration: 134,
+    rating: 7.3,
+    boxOffice: 1347.3,
+    characterIds: [9],
+    synopsis: "A prince returns home to take his rightful place as king of a technologically advanced nation.",
+    poster: "https://images.hdqwalls.com/wallpapers/black-panther-2022-4k.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/wakanda-forever-4k.jpg"
+  },
+  {
+    id: 11,
+    title: "Assembly: Infinite War",
+    phase: PHASES.PHASE_3,
+    releaseYear: 2018,
+    saga: "Infinity Saga",
+    director: "Anthony & Joe Russo",
+    duration: 149,
+    rating: 8.4,
+    boxOffice: 2048.4,
+    characterIds: [1, 2, 4, 5, 3, 6, 7, 8, 9, 10, 12, 13, 14, 15],
+    synopsis: "The Avengers unite to stop a powerful titan from collecting all six Infinity Stones.",
+    poster: "https://images.hdqwalls.com/wallpapers/avengers-infinity-war-4k.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/infinity-war-battle-4k.jpg"
+  },
+  {
+    id: 12,
+    title: "Assembly: Endgame",
+    phase: PHASES.PHASE_3,
+    releaseYear: 2019,
+    saga: "Infinity Saga",
+    director: "Anthony & Joe Russo",
+    duration: 181,
+    rating: 8.4,
+    boxOffice: 2797.8,
+    characterIds: [1, 2, 4, 5, 3, 6, 7, 8, 9, 10, 11, 12],
+    synopsis: "The remaining heroes devise one final plan to reverse the catastrophic actions of their enemy.",
+    poster: "https://images.hdqwalls.com/wallpapers/avengers-endgame-2019-4k.jpg",
+    backdrop: "https://images.hdqwalls.com/wallpapers/endgame-final-battle-4k.jpg"
+  }
+];
+
+export const getMovieById = (id) => {
+  return movies.find(movie => movie.id === parseInt(id));
+};
+
+export const getMoviesByCharacterId = (characterId) => {
+  return movies.filter(movie => movie.characterIds.includes(characterId));
+};
